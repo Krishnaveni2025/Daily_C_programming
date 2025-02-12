@@ -29,7 +29,7 @@ int main()
     last_digit = x;
 
     // Check if the most significant digit is even
-    if (last_digit % 2 == 0) {
+    if (last_digit % 2 == 1) {
         printf("%d\n", original);
     } else {
         // Subtract 1 from the most significant digit
